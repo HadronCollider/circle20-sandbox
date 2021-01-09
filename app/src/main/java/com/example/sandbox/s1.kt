@@ -14,13 +14,11 @@ class s1 : Fragment(R.layout.fragment_s1) {
         super.onCreate(savedInstanceState)
 
         gLView = MyGLSurfaceView(this.activity)
-        //setContentView(gLView)
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-        //return inflater.inflate(R.layout.fragment_s1, container, false)
+
         gLView = MyGLSurfaceView(this.activity)
         return gLView
     }
